@@ -1,0 +1,211 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .flex-items {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header {
+        justify-content: center;
+    }   
+    .hideontablet-mobile {
+        display: none;
+    }
+    .buythetour::after {
+        display: none;
+    }
+    .margin-top-mobile {
+        margin-top: 20px;
+    }
+    .footer__main {
+        flex-direction: column;
+    }
+    .footer__main-2 {
+        flex-direction: column;
+    }
+    .footer__background {
+        height: 100%;
+    }
+    .footer__main-2-all-heading {
+        margin-top: 20px;
+    }
+    .margin-bottom {
+        margin-bottom: 0;
+    }
+    .margin-top {
+        margin-top: 0;
+    }
+    .flex-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content2 {
+        margin-top: 60px;
+    }
+    .content2__heading {
+        text-align: center;
+    }
+    .content2__heading-2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .content2__btn {
+        text-align: center;
+    }
+    .left-right {
+        top: 34%;
+    }
+    .all-desc {
+        padding-right: 0;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .buythetour {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .des-tour {
+        flex-direction: row;
+    }
+    .header-bars-mobile {
+        display: block;
+    }
+    .header {
+        flex-direction: column;
+        padding: 40px 0;
+        min-height: 132px;
+    }
+    .content2__all {
+        width: 100%;
+    }
+    .margin-bottom {
+        margin: 0;
+    }
+    .padding-re {
+        padding-top: 30px;
+    }
+    .content2-big-img {
+        position: static;
+        height: 400px;
+        width: 100%
+    }
+    .flex-column {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .content2-img {
+        width: 100%;
+    }
+    .flex-items-row-1 {
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+    }
+    .content3__heading-2 {
+        font-size: 25px;
+    }
+    .content3__icon-heading {
+        font-size: 20px;
+    }
+    .content3__icon-desc {
+        font-size: 14px;
+    }
+    .content4__category-heading2 {
+        font-size: 25px;
+    }
+    .content4__category {
+        padding: 40px 0;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .header-close-mobile {
+        display: block;
+    }
+    .content2__play-video {
+        margin: 0;
+    }
+    .footer__main-1 {
+        width: 100%;
+    }
+    .footer__main-2 {
+        width: 100%;
+    }
+}
+
+/* Tablet*/
+@media (min-width: 739px) and (max-width: 1023px){
+    .des-tour {
+        height: 500px;
+    }
+    .check:checked ~ .des-tour {
+        height: 500px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .content2__desc-big {
+        flex-direction: column;
+    }
+    .content-2__desc-4 {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .des-tour {
+        height: 300px;
+    }
+    .check:checked ~ .des-tour {
+        height: 300px;
+    }
+    .buythetour {
+        padding: 6px 30px;
+        font-size: 15px;
+    }
+    .flex-tablet {
+        flex-direction: column;
+    }
+    .content3 {
+        padding: 70px 40px 70px 40px;
+    }
+    .margin-top-mobile {
+        margin-top: 50px;
+    }
+    .content__berlin-sale-link {
+        margin: 20px 0 0 247px;
+    }
+    .hinhtron {
+        margin: -25px 0 0 200px;
+    }
+    .content5__img-link {
+        width: 100%;
+    }
+    .flex-items-row {
+        flex-direction: column;
+    }
+    .content5-noidung__all {
+        width: 100%;
+        margin-top: -7px;
+    }
+    .magrin-top1-mobibile {
+        margin-top: 10px;
+    }
+    .content5-noidung__all1 {
+        width: 100%;
+        margin-top: 7px;
+    }
+    .content4__berlin-img {
+        width: 100%;
+        padding: 0 50px;
+    }
+    .img4 {
+        border: 1px solid #f1f1f1;
+    }
+    .content5__heading2 {
+        font-size: 20px;
+    }
+    .content4__berlin-all {
+        padding: 0 50px;
+    }
+}
